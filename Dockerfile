@@ -2,7 +2,8 @@ FROM alpine
 LABEL name=sirhill/truffle
 
 RUN apk add --update bash vim less sudo openssh \
-     nodejs yarn git openssl g++ tar python make curl
+    procps nodejs yarn git openssl g++ tar python make curl \
+    autoconf automake
 
 RUN mkdir /home/.yarn-global
 RUN adduser -D -s /bin/bash -h /home/node -u 1000 node

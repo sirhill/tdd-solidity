@@ -1,7 +1,7 @@
 {
-  "name": "tdd-solidity-fizzbuzz",
+  "name": "fizzbuzz-solidity",
   "version": "1.0.0",
-  "description": "TDD Solidity - FizzBuzz",
+  "description": "FizzBuzz for Solidity",
   "files": [
     "build",
     "contracts",
@@ -10,7 +10,6 @@
     "test/behaviors"
   ],
   "scripts": {
-    "compile": "scripts/compile.sh",
     "console": "truffle console",
     "coverage": "scripts/coverage.sh",
     "docsite": "scripts/docsite.sh",
@@ -37,8 +36,8 @@
     "security",
     "zeppelin"
   ],
-  "author": "cyril.lapinte@free.fr",
-  "license": "GPL",
+  "author": "Cyril Lapinte <cyril.lapinte@free.fr>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/sirhill/tdd-solidity/issues"
   },
